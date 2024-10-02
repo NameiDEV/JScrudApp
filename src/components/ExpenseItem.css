@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+    margin: 15px 5px;
+    height: 50px;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.item:hover {
+    scale: 1.1;
+}
+
+.iteminfo {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    padding: 0 10px;
+}
+
+.itemButtons {
+    display: flex;  
+    height: 20px;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.itembutton {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.Edit {
+    font-size: 1rem;
+    color: var(--mainRed);
+}
+.Delete {
+    font-size: 1rem;
+    color: var(--primaryColor);
+}

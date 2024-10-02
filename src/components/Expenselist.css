@@ -1,0 +1,18 @@
+.itemContainer {
+    background-color: var(--mainColor);
+    padding: 1rem;  
+    list-style-type: none;
+    box-shadow: 0 0 5px 0;
+}
+
+.Delete-Button {
+    position: relative;
+    top: 20px;
+    align-items: center;
+ background-color: var(--ButtonColor);
+ border: none;
+ color: var(--mainColor);
+ padding: 0.5rem 0.8rem;
+ box-shadow: 0 0 5px 0 black;
+ border-radius: 0.2rem;
+}

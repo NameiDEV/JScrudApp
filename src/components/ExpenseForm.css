@@ -1,0 +1,44 @@
+.valuebox {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.Inputbox {
+    padding: 1rem 0.7rem;
+    flex: 1;
+}
+
+label {
+    display: block;
+    color: var(--secondColor);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.form-control {
+    background-color: var(--mainColor);
+    border: none;
+    border-bottom: 1px solid var(--mainBlack);
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.nomalButton {
+ align-items: center;
+ background-color: var(--ButtonColor);
+ border: none;
+ color: var(--mainColor);
+ padding: 0.5rem 0.8rem;
+ box-shadow: 0 0 5px 0 black;
+ border-radius: 0.2rem;
+}
+
+form {
+    background-color: var(--mainColor);
+    padding: 1rem;
+    box-shadow: 0px 0px 8px 0px;
+}
